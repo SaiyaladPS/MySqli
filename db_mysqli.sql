@@ -1,0 +1,7 @@
+CREATE TABLE employees (
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    fname VARCHAR(255) NOT NULL,
+    lname VARCHAR(255) NOT NULL,
+    gender VARCHAR(255) NOT NULL,
+    skills VARCHAR(255) NOT NULL
+) DEFAULT charset=utf8;
